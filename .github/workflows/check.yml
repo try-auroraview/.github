@@ -1,0 +1,17 @@
+name: Profile checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: loonghao/vx@vx-v0.9.33
+        with:
+          version: '0.9.33'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - run: vx just check
+
