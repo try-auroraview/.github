@@ -10,4 +10,3 @@ to the website's example directory and link them from the profile as they become
 usable; keep host adapters and end-user demos distinct.
 
 See [design/IMAGE_PROMPTS.md](design/IMAGE_PROMPTS.md) for image provenance.
-

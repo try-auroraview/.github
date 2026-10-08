@@ -38,4 +38,3 @@ for asset in (ROOT / "profile/assets").glob("*.png"):
 if errors:
     raise SystemExit("\n".join(errors))
 print("English and Chinese profile links, alt text and local assets are valid.")
-

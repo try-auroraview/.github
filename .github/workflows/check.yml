@@ -14,4 +14,3 @@ jobs:
           version: '0.9.33'
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - run: vx just check
-

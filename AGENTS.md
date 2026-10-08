@@ -9,4 +9,3 @@ Use `vx` for tools and `vx just check` for validation. Commit as
 Preserve collaborators' work. Link to source and actual verification evidence;
 never imply that an adapter repository alone proves native host support.
 Generated conceptual illustrations are not runtime screenshots.
-

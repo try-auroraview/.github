@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview.png" width="92" alt="AuroraView 标志">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg">
+    <img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg" width="480" alt="AuroraView">
+  </picture>
 </p>
 
 # AuroraView
@@ -106,4 +110,3 @@ run_desktop(
 欢迎提交职责清楚的宿主适配器、可复现的演示、测试与文档。报告问题时请附上宿主版本、
 操作系统、包版本和复现步骤，并提交到对应项目。开始前请阅读框架的
 [贡献指南](https://github.com/try-auroraview/auroraview/blob/main/CONTRIBUTING.md)。
-

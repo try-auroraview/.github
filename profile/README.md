@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview.png" width="92" alt="AuroraView logo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg">
+    <img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg" width="480" alt="AuroraView">
+  </picture>
 </p>
 
 # AuroraView
@@ -118,4 +122,3 @@ Focused host adapters, reproducible demos, tests and documentation are welcome.
 Report the host version, operating system, package version and reproduction steps
 in the relevant project's issue tracker. Start with the framework's
 [contribution guide](https://github.com/try-auroraview/auroraview/blob/main/CONTRIBUTING.md).
-

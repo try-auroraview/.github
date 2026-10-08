@@ -37,5 +37,3 @@ Style: refined physical industrial cutaway model, tactile matte graphite navy, m
 Composition: wide landscape 2:1, two inputs at top left and top right, shared middle bridge, native host beneath; generous clean margins. Readable at a small size.
 Constraints: no text, letters, numbers, logos, watermarks, people, robot heads, glowing AI brains, mystical beams, fake application screenshots, or performance claims. Connections represent configured contracts, not automatic discovery of arbitrary interface features. It is a conceptual illustration, with exact labels supplied by the webpage.
 ```
-
-
