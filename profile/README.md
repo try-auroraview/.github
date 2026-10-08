@@ -1,23 +1,19 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg">
-    <img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg" width="480" alt="AuroraView">
-  </picture>
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-original.png" width="240" alt="AuroraView"></p>
 
 # AuroraView
 
 **Web interfaces for people. Explicit tool contracts for agents. Native creative hosts.**
 
-AuroraView connects HTML, CSS and JavaScript interfaces to Python tools and a Rust
-WebView core. It helps technical artists and pipeline developers build asset
-browsers, scene inspectors and production panels inside Digital Content Creation
-(DCC) applications. Bring the web's interface ecosystem and AI-assisted development
-into the software where creative work happens.
+AuroraView brings modern web interfaces into Digital Content Creation (DCC)
+applications. Start with familiar HTML, CSS and JavaScript, connect existing host
+logic, and build asset browsers, scene inspectors and production panels. Ordinary
+developers, technical artists and agents can work with clear, documented contracts
+instead of learning a separate interface stack for every host.
 
 [Website](https://try-auroraview.github.io/) ·
 [Documentation](https://try-auroraview.github.io/auroraview/) ·
+[How it works](https://try-auroraview.github.io/how-it-works/) ·
+[Host matrix](https://try-auroraview.github.io/ecosystem/) ·
 [Examples](https://try-auroraview.github.io/#examples) ·
 [中文](README_zh.md)
 
@@ -91,13 +87,13 @@ for the implementation boundary.
 | [Maya adapter](https://github.com/try-auroraview/auroraview-maya) | Maya host integration and dispatch |
 | [Maya Outliner demo](https://github.com/try-auroraview/auroraview-maya-outliner) | A separate Vue/TypeScript scene-tree tutorial with Maya Python operations |
 | [Houdini adapter](https://github.com/try-auroraview/auroraview-houdini) · [Nuke adapter](https://github.com/try-auroraview/auroraview-nuke) | Qt host integration packages |
-| [Blender integration](https://github.com/try-auroraview/auroraview-blender) | Native add-on; floating WebView remains experimental |
+| [Blender integration](https://github.com/try-auroraview/auroraview-blender) | Native add-on with HTML and scene interaction; input, DPI and cleanup acceptance continues |
 | [Unreal integration](https://github.com/try-auroraview/auroraview-unreal) | Engine plugin under active development; check native build and host evidence |
 | [Unity integration](https://github.com/try-auroraview/auroraview-unity) | Windows Editor integration under development; check its verification report |
 
 Published framework wheels, CLI binaries and Gallery applications are available
 in [Releases](https://github.com/try-auroraview/auroraview/releases).
-Host integration maturity varies. The [website project directory](https://try-auroraview.github.io/#ecosystem)
+Host integration maturity varies. The [host matrix](https://try-auroraview.github.io/ecosystem/)
 links source, checks and native runtime evidence separately. A successful build
 alone does not establish an interactive host demo.
 

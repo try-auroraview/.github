@@ -1,16 +1,11 @@
-# AuroraView brand assets
+# AuroraView brand source
 
-The profile uses the AuroraView production lockup with separate light and dark
-background variants. Compact marks and a square avatar are included for reuse.
+The profile displays the original repository PNG without changing its geometry.
+The authoritative source is [assets/icons/auroraview-logo-text.png](https://github.com/try-auroraview/auroraview/blob/2212459651b7eee39645755fc09fa600667148b2/assets/icons/auroraview-logo-text.png), also used as the documentation logo.
 
-The editable source is [auroraview-master.blend](../profile/assets/auroraview-master.blend).
-It contains native two-dimensional Bezier curves created in Blender 5.1.1 through
-DCC-MCP. SVG paths were exported from the actual curve control points, handles and
-transforms. Text is outlined; SVGs have no embedded raster images or external font
-dependencies. PNGs are raster exports for surfaces that require them.
+Its SHA256 is `18a69d6feb6bda0c778e6a352d96e08c1ebd77ce1e6d7bab1a0e666361bd1f3c`.
+The larger symbol is [assets/images/auroraview-logo.png](https://github.com/try-auroraview/auroraview/blob/2212459651b7eee39645755fc09fa600667148b2/assets/images/auroraview-logo.png).
 
-The A shape, aurora palette and Python/Rust references retain the existing brand's
-identity. The compact variant removes details for smaller display sizes.
-
-Brand creation evidence concerns the assets themselves. It does not certify a
-Blender WebView docking integration.
+No editable source for the original A, Python and Rust geometry has been located.
+The repository's small layered SVG is a separate icon. Faithful light/dark
+adaptations are under review. Reconstructed draft marks are not used by the profile.

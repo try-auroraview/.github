@@ -1,21 +1,18 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg">
-    <img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-lockup-light.svg" width="480" alt="AuroraView">
-  </picture>
-</p>
+<p align="center"><img src="https://raw.githubusercontent.com/try-auroraview/.github/main/profile/assets/auroraview-original.png" width="240" alt="AuroraView"></p>
 
 # AuroraView
 
 **人使用 Web 界面，Agent 调用显式工具契约，创作能力留在原生宿主中。**
 
-AuroraView 将 HTML、CSS 和 JavaScript 界面连接到 Python 工具与 Rust WebView
-核心，帮助技术美术和管线开发者在数字内容创作（DCC）软件中构建资产浏览器、
-场景检查器和生产面板，将 Web 界面生态和 AI 辅助开发带入实际创作环境。
+AuroraView 将现代 Web 界面带入数字内容创作（DCC）软件。从熟悉的 HTML、CSS 和
+JavaScript 开始，连接已有宿主逻辑，构建资产浏览器、场景检查器和生产面板。
+普通开发者、技术美术与 Agent 都能沿着清楚的文档和工具契约开发，降低逐个学习
+宿主界面技术栈的成本。
 
 [官网](https://try-auroraview.github.io/zh/) ·
 [中文文档](https://try-auroraview.github.io/auroraview/zh/) ·
+[工作原理](https://try-auroraview.github.io/zh/how-it-works/) ·
+[宿主矩阵](https://try-auroraview.github.io/zh/ecosystem/) ·
 [教学示例](https://try-auroraview.github.io/zh/#examples) ·
 [English](README.md)
 
@@ -77,13 +74,13 @@ AuroraView 专注现代 Web 界面、渲染与原生停靠。规划中的薄集�
 | [Maya 适配器](https://github.com/try-auroraview/auroraview-maya) | Maya 宿主集成与调度 |
 | [Maya Outliner 演示](https://github.com/try-auroraview/auroraview-maya-outliner) | 独立的 Vue/TypeScript 场景树教程，连接 Maya Python 操作 |
 | [Houdini 适配器](https://github.com/try-auroraview/auroraview-houdini) · [Nuke 适配器](https://github.com/try-auroraview/auroraview-nuke) | Qt 宿主集成包 |
-| [Blender 集成](https://github.com/try-auroraview/auroraview-blender) | 原生插件；浮动 WebView 仍为实验功能 |
+| [Blender 集成](https://github.com/try-auroraview/auroraview-blender) | 原生插件已有 HTML 与场景交互，输入、DPI 和清理仍在验收 |
 | [Unreal 集成](https://github.com/try-auroraview/auroraview-unreal) | 正在开发的引擎插件，请核对原生构建与宿主运行证据 |
 | [Unity 集成](https://github.com/try-auroraview/auroraview-unity) | 正在开发的 Windows Editor 集成，请查看其验证报告 |
 
 已发布的框架 wheel、CLI 和 Gallery 应用见
 [Releases](https://github.com/try-auroraview/auroraview/releases)。
-各宿主成熟度不同。[官网项目目录](https://try-auroraview.github.io/zh/#ecosystem)
+各宿主成熟度不同。[宿主矩阵](https://try-auroraview.github.io/zh/ecosystem/)
 分别链接源码、检查结果和原生运行证据。构建成功本身不能证明交互演示已经通过。
 
 ## 从一个小工具开始
