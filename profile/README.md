@@ -69,6 +69,20 @@ Extensions add capabilities to the web layer; packaging collects application
 code and assets for distribution. Native host plugins keep their own lifecycle
 and installation requirements. See the [layered architecture](https://try-auroraview.github.io/#architecture).
 
+## Shared runtime direction — proposed
+
+AuroraView focuses on modern web interfaces, rendering and native docking. The
+planned thin integration reuses DCC-MCP Core's existing server, tool and Skill
+registry, host execution bridge, scheduling and lifecycle. DCC-MCP retains its
+automation responsibilities. This shared integration has not yet been delivered.
+
+The intended visual panel and explicit agent tools call the same host business
+capabilities. An integration should attach to an existing host service when
+available. Closing a panel releases its own subscriptions and tasks; only the
+owner closes a service. See the website's
+[current and proposed architecture](https://try-auroraview.github.io/#architecture)
+for the implementation boundary.
+
 ## Explore the projects
 
 | Project | What to use it for |

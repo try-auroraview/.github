@@ -59,6 +59,16 @@ WebView 对象必须留在其所属 UI 线程上。共享协议并不消除这�
 扩展为 Web 层增加能力，打包收集应用代码与资产以便分发；原生宿主插件保留各自的
 生命周期和安装要求。完整关系见[分层架构](https://try-auroraview.github.io/zh/#architecture)。
 
+## 共享运行时方向（规划）
+
+AuroraView 专注现代 Web 界面、渲染与原生停靠。规划中的薄集成复用 DCC-MCP Core
+已有的 Server、工具与 Skill 注册、宿主执行桥、线程调度和生命周期；DCC-MCP 保持
+自身的自动化职责。这部分实际整合尚未交付。
+
+可视面板与显式 Agent 工具将调用同一组宿主业务能力。存在宿主服务时优先附着；
+关闭面板只释放自身订阅和任务，仅资源所有者关闭服务。实现边界见官网的
+[当前与规划架构](https://try-auroraview.github.io/zh/#architecture)。
+
 ## 项目生态
 
 | 项目 | 用途 |
